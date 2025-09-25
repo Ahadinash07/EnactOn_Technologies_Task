@@ -86,6 +86,25 @@ The application will be available at `http://localhost:3000`
     └── PokemonCard.test.tsx
 ```
 
+## 🧪 Testing
+
+### Test Coverage
+- **Custom Hook Testing**: `useFavorites` hook with React Testing Library
+- **Component Testing**: `PokemonCard` component with interaction testing
+- **Mocking Strategy**: localStorage, IntersectionObserver, and API responses
+
+### Running Tests
+```bash
+# Run all tests
+npm test
+
+# Run tests in watch mode
+npm run test:watch
+
+# Generate coverage report
+npm run test:coverage
+```
+
 ## ⚡ Performance Optimizations
 
 ### Implemented Strategies
