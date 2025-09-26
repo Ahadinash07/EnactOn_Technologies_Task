@@ -2,7 +2,7 @@
 
 A production-ready React/Next.js application for exploring Pokémon using the PokéAPI. This application demonstrates advanced React patterns, performance optimization, and user experience best practices.
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js 16+ 
@@ -117,12 +117,12 @@ npm run test:coverage
 7. **Memoization**: React.memo and useCallback optimize re-renders
 
 ### Performance Constraints Met
-- ✅ Debounced search input (300ms)
-- ✅ Request cancellation for stale API calls
-- ✅ List virtualization for large datasets
-- ✅ Proper loading skeletons/placeholders
+- Debounced search input (300ms)
+- Request cancellation for stale API calls
+- List virtualization for large datasets
+- Proper loading skeletons/placeholders
 
-## 🎨 User Experience Features
+## User Experience Features
 
 ### Accessibility
 - Semantic HTML structure with proper ARIA labels
@@ -135,7 +135,7 @@ npm run test:coverage
 - Touch-friendly interface elements
 - Optimized for devices from 320px to 1920px+
 
-## 📋 Architecture Decisions
+## Architecture Decisions
 
 ### State Management Choice
 **Selected**: Context API + useReducer over Redux Toolkit
@@ -164,7 +164,7 @@ npm run test:coverage
 - Comprehensive Pokémon information
 - Good image assets and artwork
 
-## 🔮 Future Improvements
+## Future Improvements
 
 ### Planned Enhancements
 1. **Advanced Filtering**: Multiple simultaneous filters, stat ranges, generation filtering
@@ -193,4 +193,4 @@ npm run test:coverage
 
 ---
 
-Built with ❤️ using Next.js, TypeScript, and the PokéAPI
+Built with using Next.js, TypeScript, and the PokéAPI
